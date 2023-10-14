@@ -17,7 +17,7 @@ app.use(express.json());
 app.use(cors());
 
 app.get('/', (req, res) => {
-	res.send('working');
+	res.render('https://newswire-frontend.onrender.com');
 });
 
 const newsRoutes = require('./routes/news');
